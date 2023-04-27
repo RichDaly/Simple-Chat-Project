@@ -2,6 +2,13 @@ package ie.atu.sw;
 
 import java.util.Scanner;
 
+/**
+ * Provides a simple command line user interface for the application. Comments throughout class
+ * are as submitted to explain actions.
+ *
+ * @author Richard Daly
+ */
+
 public class Menu {
 	private boolean keepRunning = true; // keeps menu running until correctly used.
 	private ChatServer server; // instance of ChatServer.
