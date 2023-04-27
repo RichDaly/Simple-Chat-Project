@@ -40,4 +40,4 @@ the source code of both. From within the src folder use the following `javac ie.
 
 **NB** ChatClient.java will expect a command line argument of the server IP. This will be
 displayed by ChatServer.java once running.
-Example: `java ie.atu.sw.ChatClient 192.168.8.115`
+Example: `java ie.atu.sw.ChatClient 193.178.8.125`
