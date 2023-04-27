@@ -26,6 +26,8 @@ functionality. [ChatServer.java](https://github.com/RichDaly/Simple_Chat_Project
 - A brief (1-2 page max.) design document that outlines the design / rationale for
 your programs, and references to any external sources consulted. [DesignDocument.pdf](https://github.com/RichDaly/Simple_Chat_Project/blob/main/DesignDocument.pdf)
 
+### Received Result : First Class Honours
+
 ## Running Application
 
 There are two ways of running the application through the CLI. Once the ChatServer is running, it will be able to receive multiple ChatClient connections and facilitate a text-based chat session between all users.
