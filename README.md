@@ -28,7 +28,7 @@ your programs, and references to any external sources consulted.
 
 ## Running Application
 
-There are two ways of running the application through the CLI:
+There are two ways of running the application through the CLI. Once the ChatServer is running, it will be able to receive multiple ChatClient connections and facilitate a text-based chat session between all users.
 
 1. Through the jar file by using the following command within the stored directory:
 `java -cp ./chatApp.jar ie.atu.sw.Runner`
