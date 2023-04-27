@@ -28,9 +28,9 @@ your programs, and references to any external sources consulted.
 
 ## Running Application
 
-There are two ways of running the application
+There are two ways of running the application through the CLI:
 
-1. Through the jar file by using the following command within the submitted folder:
+1. Through the jar file by using the following command within the stored directory:
 `java -cp ./chatApp.jar ie.atu.sw.Runner`
 This will launch the application through a simple menu command line interface. Can choose
 to run either the Server or the Client side of the application.
