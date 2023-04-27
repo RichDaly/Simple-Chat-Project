@@ -8,7 +8,7 @@ Submitted January 2023.
 Your task is to demonstrate your understanding of networking by designing and
 implementing a network-based chat application in Java, using the Java Socket API.
 Chat Application Functionality:
-- Server starts up and waits for socket connections on a specific port.
+- Server starts up and waits for socket connections on a specific port. `8888`
 - Client starts up and attempts to create a socket connection to the server.
 - If a connection is successfully formed, then the client and server should be able
 to facilitate a text-based chat session between users at the client and server
@@ -20,11 +20,11 @@ connection to the other application and displayed at the console.
 - Users should be able to gracefully end the chat session and close the
 connection by entering “\q”.
 - The client program – ChatClient – that implements the client side
-functionality.
+functionality. [ChatClient.java](https://github.com/RichDaly/Simple_Chat_Project/blob/main/src/ie/atu/sw/ChatClient.java)
 - The Server program – ChatServer – that facilitates the server-side
-functionality.
+functionality. [ChatServer.java](https://github.com/RichDaly/Simple_Chat_Project/blob/main/src/ie/atu/sw/ChatServer.java)
 - A brief (1-2 page max.) design document that outlines the design / rationale for
-your programs, and references to any external sources consulted.
+your programs, and references to any external sources consulted. [DesignDocument.pdf](https://github.com/RichDaly/Simple_Chat_Project/blob/main/DesignDocument.pdf)
 
 ## Running Application
 
