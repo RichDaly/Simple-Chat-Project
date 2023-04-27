@@ -15,8 +15,8 @@ This will launch the application through a simple menu command line interface. C
 to run either the Server or the Client side of the application.
 
 2. Both ChatServer.java and ChatClient.java have main methods and can be run by compiling
-the source code of both.
+the source code of both. From within the src folder use the following `javac ie.atu.sw.*.java` and then `java ie/atu/sw/ChatClient` or `java ie/atu/sw/ChatServer` depending on the part of the application you wish to run.
 
-NB ChatClient.java will expect a command line argument of the server IP. This will be
+**NB** ChatClient.java will expect a command line argument of the server IP. This will be
 displayed by ChatServer.java once running.
 Example: `java ie.atu.sw.ChatClient 192.168.8.115`
