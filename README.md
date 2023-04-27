@@ -1,9 +1,30 @@
 # Simple-Chat-Project
 College Assignment to create a simple network based chat application using the Java Socket API.
 
-
 Submitted January 2023.
 
+## Project Requirements
+
+Your task is to demonstrate your understanding of networking by designing and
+implementing a network-based chat application in Java, using the Java Socket API.
+Chat Application Functionality:
+- Server starts up and waits for socket connections on a specific port.
+- Client starts up and attempts to create a socket connection to the server.
+- If a connection is successfully formed, then the client and server should be able
+to facilitate a text-based chat session between users at the client and server
+side, i.e.
+1. Client and server should allow the user to enter text at the console
+(command line).
+2. Messages entered by the user should be sent across the socket
+connection to the other application and displayed at the console.
+- Users should be able to gracefully end the chat session and close the
+connection by entering “\q”.
+- The client program – ChatClient – that implements the client side
+functionality.
+- The Server program – ChatServer – that facilitates the server-side
+functionality.
+- A brief (1-2 page max.) design document that outlines the design / rationale for
+your programs, and references to any external sources consulted.
 
 ## Running Application
 
