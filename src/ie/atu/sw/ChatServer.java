@@ -8,6 +8,16 @@ import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * This is Class serves as the server the chat application. It will open on port 8888 and actively
+ * listen for clients attempting to connect. This is server is multithreaded and can accept multiple
+ * clients and passes messages between them all. The server is also capable of interacting in the chat.
+ * 
+ * Comments throughout class are as submitted during course for the purpose of explianing actions.
+ *
+ * @author Richard Daly
+ */
+
 public class ChatServer implements Runnable {
 	private ArrayList<Client> connectedClients = new ArrayList<>(); // the multiple clients
 	private static final int PORT = 8888;
