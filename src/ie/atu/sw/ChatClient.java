@@ -5,6 +5,16 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+/**
+ * This class functions as a chat client in the application. It will attempt to connect to the server
+ * at the specified IP address on port 8888 and be capable of sending and receiving messages from the
+ * server.
+ *
+ * Comments throughout the class are as submitted to explain actions.
+ *
+ * @author Richard Daly
+ */
+
 public class ChatClient implements Runnable {
 	private static final int PORT = 8888;
 	private boolean keepRunning = true;
